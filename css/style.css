@@ -566,7 +566,10 @@ footer {
 .some-info ul li a {
 	color: white;
 	font-size: 14px;
-	font-style: italic;
+}
+
+.some-info ul li {
+	margin-bottom: 5px;
 }
 
 .some-info {
