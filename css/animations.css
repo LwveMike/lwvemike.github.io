@@ -1,0 +1,63 @@
+
+/*Meniul*/
+.nav-bar li a:hover{
+	cursor: url(../img/macCursor.cur), auto;
+	animation: boxShadowChange 1s ease 0ms infinite;
+
+}
+
+@keyframes boxShadowChange {
+	0% {
+		box-shadow:  0px 0px 50px 0px rgba(238, 156, 167,1);
+	}
+	10% {
+		box-shadow:  0px 0px 50px 0px rgba(255, 184, 140,1);
+	}
+	20% {
+		box-shadow:  0px 0px 50px 0px rgba(72, 177, 191,1);
+	}
+	30% {
+		box-shadow:  0px 0px 50px 0px rgba(244, 92, 67,1);
+	}
+	40% {
+		box-shadow:  0px 0px 50px 0px rgba(221, 94, 137,1);
+	}
+	50% {
+		box-shadow:  0px 0px 50px 0px rgba(221, 94, 137,1);
+	}
+	60% {
+		box-shadow:  0px 0px 50px 0px rgba(238, 156, 167,1);
+	}
+	70% {
+		box-shadow:  0px 0px 50px 0px rgba(255, 184, 140,1);
+	}
+	80% {
+		box-shadow:  0px 0px 50px 0px rgba(72, 177, 191,1);
+	}
+	100% {
+		box-shadow:  0px 0px 50px 0px rgba(244, 92, 67,1);
+	}
+
+}
+
+.search-input input[type="text"]:focus:placeholder {
+	visibility: none;
+}
+
+.search-input input[type="text"]:hover {
+	box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.5);
+	transition: box-shadow 500ms ease;
+
+}
+.search-input:hover img{
+ 	right: 20px;
+ 	transition: right 500ms ease;
+}
+
+
+
+
+
+
+
+

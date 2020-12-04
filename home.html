@@ -10,6 +10,7 @@
 
 
 	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/animations.css">
 	<title>Home</title>
 	<script src="https://kit.fontawesome.com/0498875f4b.js" crossorigin="anonymous"></script>
 </head>
@@ -24,14 +25,14 @@
 			</div>
 			
 			<ul class="nav-bar">
-				<li><a href="about.html">About </a></li>
+				<li><a href="home.html">About </a></li>
 				<li><a href="#first-content">How it works</a></li>
 				<li><a href="#get-started">Services </a></li>
 				<li><a href="#purple-container">FAQ </a></li>
 				<li><a href="#contacts">Contact </a></li>
 				<li>
 					<div class="search-input">
-					<input type="text" placeholder="Search Website">
+					<input type="text" placeholder="Search Website" onfocus="this.placeholder ='' " onblur="this.placeholder = 'Search Website'">
 					<img src="img/search-solid.svg" alt="search-icon">
 					</div>
 				</li>
@@ -226,6 +227,8 @@
 		</form>
 		</div>
 	</footer>
+
+	<script src="js/script.js"></script>
 
 
 </body>

@@ -92,11 +92,6 @@ img[alt="scris-logo"]{
 	align-items: center;
 }
 
-nav li:first-child{
-	border-bottom: 3px solid white;
-	margin-bottom: -3px;
-}
-
 .nav-bar li:last-child{
 	margin-right: 0;
 }
@@ -643,13 +638,8 @@ footer {
 }
 
 
-.nav-bar li:hover a{
-	color: rgba(255,255,255,0.5);
-	box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.7);
-	transition: color 1s ease;
-	transition: box-shadow 1s ease;
 
-}
+
 
 
 
