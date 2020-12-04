@@ -92,7 +92,7 @@ img[alt="scris-logo"]{
 	align-items: center;
 }
 
-li:first-child{
+nav li:first-child{
 	border-bottom: 3px solid white;
 	margin-bottom: -3px;
 }
@@ -483,7 +483,7 @@ img[alt='mana'] {
 
 #contacts {
 	/*height: 400px;*/
-	height: 70vh;
+	height: 60vh;
 	background-color: #d54c63;
 	font-family: 'Open Sans', sans-serif;
 	color: #e798a5;
@@ -543,7 +543,7 @@ i.fa-window-maximize {
 
 footer {
 	/*height: 360px;*/
-	height: 30vh;
+	height: 40vh;
 	background-color: #2e3b4e;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 10px;
@@ -556,11 +556,96 @@ footer {
 
 }
 
+.grid-footer {
+	display: grid;
+	grid-template-columns: 100px 400px 400px;
+	grid-gap: 60px;
+	justify-content: center;
+}
+
+.some-info ul li a {
+	color: white;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.some-info {
+	align-self: center;
+}
+
+.s-column {
+	color: white;
 
 
-.nav-bar li:hover {
-	background: linear-gradient(90deg, rgba(107,23,182,1) 0%, rgba(224,133,241,1) 51%, rgba(240,56,208,1) 100%);
-	transition: background 500ms ease;
+}
+
+.s-column h2 {
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+.s-column p + p {
+	margin-top: 20px;
+}
+
+.s-column p {
+	font-size: 14px;
+	font-family: Tahoma, sans-serif;
+	font-weight: normal;
+}
+
+#formular {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+
+}
+
+#formular h2 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#formular input{
+	height: 40px;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+	margin-bottom: 5px;
+}
+
+#formular textarea {
+	resize: none;
+	outline: none;
+	border-radius: 4px;
+	margin-bottom: 5px;
+}
+
+#formular textarea::placeholder {
+	padding-top: 10px;
+}
+
+#formular button {
+	height: 40px;
+	background-color: #0074D9;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+	width: 200px;
+	align-self: center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.nav-bar li:hover a{
+	color: rgba(255,255,255,0.5);
+	box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.7);
+	transition: color 1s ease;
+	transition: box-shadow 1s ease;
+
 }
 
 
