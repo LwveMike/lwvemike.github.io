@@ -40,6 +40,7 @@ input[type="text"]{
 	border-radius: 50px;
 	border: none;
 	line-height: 44px;
+	text-indent: 10px;
 
 }
 
@@ -564,7 +565,7 @@ footer {
 }
 
 .some-info ul li {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .some-info {

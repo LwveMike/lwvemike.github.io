@@ -54,6 +54,70 @@
  	transition: right 500ms ease;
 }
 
+button {
+	cursor: url(../img/macCursor.cur), auto;
+}
+
+button:hover {
+	box-shadow: inset 4px 2px 30px 0px rgba(0,0,0,0.3);
+	transition: box-shadow 500ms ease;
+}
+body {
+	cursor: url(../img/macNormal.cur), auto;
+}
+
+.photography {
+	cursor: url(../img/macNormal.cur), auto;
+}
+
+.contact-element a{
+	cursor: url(../img/macHelp.cur), auto;
+}
+
+.some-info ul li a{
+	position: relative;
+	cursor: url(../img/macCursor.cur), auto;
+}
+
+.some-info ul li a::after {
+	content: '';
+	background-color: #fed766;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: -4px;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 500ms ease;
+}
+
+.some-info ul li a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
 
 
 
